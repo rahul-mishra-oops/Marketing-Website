@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <title>Jyoti Marketing</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url('backg.jpg');
+            color: white;
+            font-family: 'Zen Dots', cursive;
+
+
+        }
+
+        .left {
+            display: inline-block;
+            /* border: 3px solid red; */
+            position: absolute;
+            left: 44px;
+            top: 7px;
+        }
+
+        .left img {
+            width: 45px;
+            /* opacity: 50%; */
+            padding-left: 56px;
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .mid {
+            display: block;
+            width: 54%;
+            margin: 12px 295px;
+            /* border: 3px solid green; */
+        }
+
+        .right {
+            position: absolute;
+            display: inline-block;
+            /* border: 3px solid purple; */
+            right: 44px;
+            top: 16px;
+
+        }
+
+
+
+        .navbar li {
+            display: inline-block;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        .navbar li a:hover {
+            text-decoration: transparent;
+            color: black;
+            background-color: chartreuse;
+        }
+
+        .btn {
+            margin: 3px 14px;
+
+            background-color: rgb(140, 207, 53);
+            color: black;
+            border-radius: 13px;
+            padding: 4px 14px;
+            cursor: pointer;
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: bold;
+
+        }
+
+        .btn:hover {
+            background-color: chartreuse;
+        }
+
+        .container h1 {
+            color: rgb(140, 207, 53);
+            margin: 60px 46px;
+        }
+
+        .container p {
+            color: rgb(88 208 73);
+            margin: 20px 46px;
+            font-size: 23px;
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: bold;
+            line-height: 31px;
+        }
+
+        .imgbox {
+            /* border: 3px solid white; */
+            display: inline-block;
+            position: absolute;
+            left: 46px;
+
+        }
+
+        .imgbox img {
+            width: 350px;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+
+        .form {
+            position: absolute;
+            left: 790px;
+            bottom: 70px;
+            border: 3px solid white;
+            border-radius: 10px;
+            padding: 20px;
+            display: block;
+            margin: 25px 20px;
+        }
+
+        .form-group input {
+            text-align: center;
+            display: block;
+            width: 330px;
+            padding: 10px;
+            margin: 9px auto;
+            font-size: 14px;
+            border-radius: 10px;
+            font-family: 'Zen Dots', cursive;
+        }
+
+        .form button {
+            display: block;
+
+            margin: auto;
+            border-radius: 10px;
+            width: 330px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="left">
+            <img src="logo.jpg" alt="">
+            <div>Jyoti Marketings</div>
+        </div>
+
+        <div class="mid">
+            <div class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Achievments</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="right">
+            <button class="btn">
+                Get Started
+            </button>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>JYOTI MARKETING CONSULTANCY</h1>
+        <p>If you have a company and you want to make it LARGER than ever <br>then you are at the right place!
+            <br>Register and get started
+        </p>
+    </div>
+
+    <div class="imgbox">
+        <img src="mark1.jpg" alt="imagle">
+    </div>
+
+    <div class="form">
+        <h1>Join us Now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+        </form>
+
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+        </form>
+
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Company name">
+            </div>
+        </form>
+
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email">
+            </div>
+        </form>
+
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Company Address">
+            </div>
+        </form>
+        <button class="btn">Submit</button>
+    </div>
+
+
+
+    </div>
+</body>
+
+</html>
